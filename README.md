@@ -116,11 +116,13 @@ alias sublime='open -a "Sublime Text 2"'
 
 # Chain bash commands
 
+Sometimes we need to chain the bash command when we run `docker build`, because each command in the Dockerfile (e.g. FROM, ENV, RUN) is a step in the build process. Docker processes each step in an intermediate container. 
+
 ```
 A; B    # Run A and then B, regardless of success of A
 A && B  # Run B if and only if A succeeded
 A || B  # Run B if and only if A failed
-A &     # Run A in background.
+A &     # Run A in background
 ```
 
 # Reference
