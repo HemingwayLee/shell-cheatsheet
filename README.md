@@ -6,7 +6,7 @@
 
 # Cheatsheet
 
-## ssh (<user> is `your_user_name` in GoogleCloud and it is `ubuntu` in AWS)
+## ssh (`<user>` is `your_user_name` in GoogleCloud and it is `ubuntu` in AWS)
 
 ```
 ssh -i ~/.ssh/<my.pem> <user>@<ip>
