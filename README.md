@@ -114,6 +114,15 @@ alias chrome='open -a "Google Chrome"'
 alias sublime='open -a "Sublime Text 2"'
 ```
 
+# Chain bash commands
+
+```
+A; B    # Run A and then B, regardless of success of A
+A && B  # Run B if and only if A succeeded
+A || B  # Run B if and only if A failed
+A &     # Run A in background.
+```
+
 # Reference
 
 https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash
