@@ -27,6 +27,12 @@ sudo rm -fr *
 sudo cp -R /home/abc/* .
 ```
 
+## scp
+
+```
+scp -i ~/.ssh/xxx.pem ~/Desktop/util.js username@xx.xxx.xxx.xxx:/home/foldername
+```
+
 ## tmux
 ```
 tmux ls
