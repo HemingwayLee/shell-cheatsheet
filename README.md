@@ -131,6 +131,47 @@ A || B  # Run B if and only if A failed
 A &     # Run A in background
 ```
 
+## vim
+
+* Modify the read-only file by vim
+```
+sudo vim readonly.txt
+```
+
+```
+:w !sudo tee %
+O
+:q!
+```
+
+* set number by default
+
+```
+vi ~/.vimrc
+```
+
+then add the following line to the file:
+
+```
+set number
+```
+
+* Delete one line
+```
+dd
+```
+
+* Delete all
+```
+d
+G
+```
+
+* Search
+```
+/word
+```
+
 # Reference
 
 https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash
