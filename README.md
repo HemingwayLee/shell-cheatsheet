@@ -57,6 +57,10 @@ git commit -m "My branch is ready"
 git push origin FEATURE_BRANCH_NAME
 ```
 
+* Remove files from remote after adding .gitignore
+
+https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore
+
 ## standard output
 ```
 history > h.txt  # override
