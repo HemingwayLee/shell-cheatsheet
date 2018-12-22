@@ -33,6 +33,12 @@ sudo cp -R /home/abc/* .
 scp -i ~/.ssh/xxx.pem ~/Desktop/util.js username@xx.xxx.xxx.xxx:/home/foldername
 ```
 
+## ls (makes it human readable (e.g., GB, MB, ...))
+
+```
+ls -lh
+```
+
 ## tmux
 ```
 tmux ls
