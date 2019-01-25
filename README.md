@@ -65,6 +65,12 @@ git push origin FEATURE_BRANCH_NAME
 
 * Remove files from remote after adding .gitignore
 
+```
+git rm --cached `git ls-files -i --exclude-from=.gitignore` 
+git commit -m 'Removed all files that are in the .gitignore' 
+git push origin master
+```
+
 https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore
 
 ## standard output
