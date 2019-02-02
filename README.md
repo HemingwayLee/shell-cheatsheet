@@ -79,6 +79,11 @@ history > h.txt  # override
 ls >> abc.txt    # append
 ```
 
+## Kill the process listening on port 3000 
+```
+kill -9 $(lsof -i:3000 -t)
+```
+
 ## check file information
 
 ```
