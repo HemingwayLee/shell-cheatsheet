@@ -147,6 +147,9 @@ A || B  # Run B if and only if A failed
 A &     # Run A in background
 ```
 
+## AWS RDS
+By default, we need to configure the firewall (In Bound Rules in security group) to accept connections from other instances
+
 ## vim
 
 * Modify the read-only file by vim
