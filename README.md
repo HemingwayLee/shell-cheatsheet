@@ -125,6 +125,7 @@ export -p
 open from command line
 
 ```
+open hello.html
 open -a "Google Chrome" hello.html
 open -a "Sublime Text 2" README.md
 ```
