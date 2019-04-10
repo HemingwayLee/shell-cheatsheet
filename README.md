@@ -24,6 +24,8 @@ sudo cp -R /home/abc/* .
 
 ## scp
 
+Use `-r` option to copy the folder
+
 ```
 scp -i ~/.ssh/xxx.pem ~/Desktop/util.js username@xx.xxx.xxx.xxx:/home/foldername
 ```
