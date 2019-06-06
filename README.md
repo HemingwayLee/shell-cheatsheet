@@ -150,6 +150,9 @@ A || B  # Run B if and only if A failed
 A &     # Run A in background
 ```
 
+# Run process in the background  
+https://unix.stackexchange.com/questions/74520/can-i-redirect-output-to-a-log-file-and-background-a-process-at-the-same-time  
+
 ## AWS RDS
 By default, we need to configure the firewall (In Bound Rules in security group) to accept connections from other instances
 
