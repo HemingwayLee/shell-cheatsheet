@@ -139,7 +139,7 @@ alias chrome='open -a "Google Chrome"'
 alias sublime='open -a "Sublime Text 2"'
 ```
 
-# Chain bash commands
+## Chain bash commands
 
 Sometimes we need to chain the bash command when we run `docker build`, because each command in the Dockerfile (e.g. FROM, ENV, RUN) is a step in the build process. Docker processes each step in an intermediate container. 
 
@@ -150,7 +150,12 @@ A || B  # Run B if and only if A failed
 A &     # Run A in background
 ```
 
-# Run process in the background  
+## Read random line  
+```
+cat file.txt | shuf -n 1
+```
+
+## Run process in the background  
 https://unix.stackexchange.com/questions/74520/can-i-redirect-output-to-a-log-file-and-background-a-process-at-the-same-time  
 
 ## AWS RDS
