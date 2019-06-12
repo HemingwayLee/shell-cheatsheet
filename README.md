@@ -68,6 +68,18 @@ git commit -m 'Removed all files that are in the .gitignore'
 git push origin master
 ```
 
+* Discard all local changes
+
+```
+git reset --hard
+```
+
+* Diff local and remote
+
+```
+git diff master origin/master
+```
+
 https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore
 
 ## standard output
