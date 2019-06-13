@@ -13,4 +13,7 @@ pip3 install -r requirements.txt
 deactivate
 ```
 
+# Note  
+`pip3 freeze > requirements.txt` will generate akk the packages you have, even you don't use them in your project
+
 
