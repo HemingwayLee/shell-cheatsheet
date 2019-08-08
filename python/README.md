@@ -28,13 +28,21 @@ deactivate
 
 https://pythonwheels.com/
 
-# pip.conf
-
-
 # pip
 * `pip` is used to replace `easy_install`
 * `pip3 freeze > requirements.txt` will generate all the packages you have, even you don't use them in your project
 * `pip install some-package.whl` will install package from .whl file directly
+
+## pip.conf
+* pip allows you to set all command line option defaults in a standard ini style config file
+
+If multiple configuration files are found by pip then they are combined in the following order:
+
+* The site-wide file is read
+* The per-user file is read
+* The virtualenv-specific file is read
+
+Each file read overrides any values read from previous files
 
 # Ref
 https://blog.zengrong.net/post/2169.html
