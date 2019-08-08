@@ -44,5 +44,8 @@ If multiple configuration files are found by pip then they are combined in the f
 
 Each file read overrides any values read from previous files
 
+# twine
+* It is a utility for publishing python packages on PyPl
+
 # Ref
 https://blog.zengrong.net/post/2169.html
