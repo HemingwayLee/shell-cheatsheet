@@ -1,7 +1,8 @@
 # Python
-Mac and many linux distributions installed python (2.7) by default. (That's why python is puplor for automation)
-
-Don't change python3 to default in linux, some programs are depending on python2.7 (e.g., node-gyp)
+## Python version
+* Mac and many linux distributions installed python (2.7) by default. (That's why python is puplor for automation)  
+* Don't change python3 to default in linux, some programs are depending on python2.7 (e.g., node-gyp)
+* Python 2.x will be EOS at 2020
 
 https://stackoverflow.com/questions/21365714/nodejs-error-installing-with-npm
 
@@ -13,7 +14,27 @@ pip3 install -r requirements.txt
 deactivate
 ```
 
-# Note  
-`pip3 freeze > requirements.txt` will generate akk the packages you have, even you don't use them in your project
+# Wheel
+* It is a built-package format for python
+* It is a zip format archive with a specially formatted filename and the .whl extension
+* It is intended to replace eggs
+
+## Why wheel
+* Faster installation for pure Python and native C extension packages
+* Avoids arbitrary code execution for installation (Avoids setup.py)
+* Installation of a C extension does not require a compiler on Linux, Windows or macOS
+* More consistent installs across platforms and machines
+  * Good for CI
+
+https://pythonwheels.com/
+
+# pip.conf
 
 
+# pip
+* `pip` is used to replace `easy_install`
+* `pip3 freeze > requirements.txt` will generate all the packages you have, even you don't use them in your project
+* `pip install some-package.whl` will install package from .whl file directly
+
+# Ref
+https://blog.zengrong.net/post/2169.html
