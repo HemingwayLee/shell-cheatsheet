@@ -164,6 +164,7 @@ cat file.txt | shuf -n 1
 ## shuffle 
 ```
 shuf words.txt
+gshuf addresses.csv > addresses2.csv
 ```
 
 ## Run process in the background  
