@@ -161,6 +161,11 @@ A &     # Run A in background
 cat file.txt | shuf -n 1
 ```
 
+## shuffle 
+```
+shuf words.txt
+```
+
 ## Run process in the background  
 https://unix.stackexchange.com/questions/74520/can-i-redirect-output-to-a-log-file-and-background-a-process-at-the-same-time  
 
