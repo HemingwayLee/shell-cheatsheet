@@ -47,5 +47,18 @@ Each file read overrides any values read from previous files
 # twine
 * It is a utility for publishing python packages on PyPl
 
+# setup.py
+It is a python file, it allows you to install Python packages
+
+```
+pip3 install . 
+```
+
+or 
+
+```
+python3 setup.py install
+```
+
 # Ref
 https://blog.zengrong.net/post/2169.html
