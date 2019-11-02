@@ -3,6 +3,7 @@
 * Mac and many linux distributions installed python (2.7) by default. (That's why python is puplor for automation)  
 * Don't change python3 to default in linux, some programs are depending on python2.7 (e.g., node-gyp)
 * Python 2.x will be EOS at 2020
+* Different version of linux server will have different version of python, to install specific version of python on linux, we need to `wget` and `build` it
 
 https://stackoverflow.com/questions/21365714/nodejs-error-installing-with-npm
 
