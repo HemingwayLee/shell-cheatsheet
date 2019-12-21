@@ -156,6 +156,11 @@ A || B  # Run B if and only if A failed
 A &     # Run A in background
 ```
 
+## Read JSON in bash
+```
+curl -s 'https://api.github.com/users/lambda' | python3 -c "import sys, json; print(json.load(sys.stdin)['name'])"
+```
+
 ## Read random line  
 ```
 cat file.txt | shuf -n 1
