@@ -219,6 +219,14 @@ G
 /word
 ```
 
+# colon operator in variable
+```
+${parameter:-word}
+```
+
+If `parameter` is unset or null, the expansion of `word` is substituted. Otherwise, the value of `parameter` is substituted.
+
+
 # Reference
 
 https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash
