@@ -94,6 +94,13 @@ ls >> abc.txt    # append
 kill -9 $(lsof -i:3000 -t)
 ```
 
+## find folder
+```
+find . -type d -name 'foldername'
+```
+
+`.` means current directory
+
 ## check file information
 
 ```
