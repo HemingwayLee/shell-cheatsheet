@@ -94,6 +94,13 @@ ls >> abc.txt    # append
 kill -9 $(lsof -i:3000 -t)
 ```
 
+## find folder
+```
+find . -type d -name 'foldername'
+```
+
+`.` means current directory
+
 ## check file information
 
 ```
@@ -218,6 +225,14 @@ G
 ```
 /word
 ```
+
+# colon operator in variable
+```
+${parameter:-word}
+```
+
+If `parameter` is unset or null, the expansion of `word` is substituted. Otherwise, the value of `parameter` is substituted.
+
 
 # Reference
 
