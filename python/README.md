@@ -15,6 +15,8 @@ pip3 install -r requirements.txt
 deactivate
 ```
 
+* It is bad practice to put `virtualenv` into git because there are many paths pointing to the local environment
+
 # Wheel
 * It is a built-package format for python
 * It is a zip format archive with a specially formatted filename and the .whl extension
