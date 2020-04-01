@@ -163,9 +163,18 @@ A || B  # Run B if and only if A failed
 A &     # Run A in background
 ```
 
+# curl
 ## Read JSON in bash
 ```
 curl -s 'https://api.github.com/users/lambda' | python3 -c "import sys, json; print(json.load(sys.stdin)['name'])"
+```
+
+## loop until web server available
+```
+until $(curl --output /dev/null --silent --head --fail http://myhost:myport); do
+    printf '.'
+    sleep 5
+done
 ```
 
 ## Read random line  
