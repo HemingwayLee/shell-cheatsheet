@@ -177,6 +177,8 @@ until $(curl --output /dev/null --silent --head --fail http://myhost:myport); do
 done
 ```
 
+`--fail`: wait until return 200
+
 ## Read random line  
 ```
 cat file.txt | shuf -n 1
