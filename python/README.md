@@ -5,6 +5,7 @@
 * Python 2.x will be EOS at 2020
 * Different version of linux server will have different version of python, to install specific version of python on linux, we need to `wget` and `build` it
 
+
 https://stackoverflow.com/questions/21365714/nodejs-error-installing-with-npm
 
 # Virtual environment
