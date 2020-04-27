@@ -70,6 +70,24 @@ git push origin master
 git reset --hard
 ```
 
+* changes -> add -> commit
+* undo changes
+```
+git checkout file.py
+```
+
+* undo add
+```
+git reset file.py
+```
+
+* undo commit
+```
+git revert --no-commit XXXXXX HEAD
+git commit
+git push
+```
+
 * Diff local and remote  
 ```
 git diff master origin/master
