@@ -73,7 +73,7 @@ git reset --hard
 * changes -> add -> commit
 * undo changes
 ```
-git checkout file.py
+git checkout -- file.py
 ```
 
 * undo add
