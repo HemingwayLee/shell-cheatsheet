@@ -127,7 +127,7 @@ README.md: text/plain; charset=us-ascii
 ```
 
 ## mkdir
-
+* Create folders if they do not exist
 ```
 mkdir -p /usr/share/jenkins/ref/
 ```
