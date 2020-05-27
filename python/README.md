@@ -64,5 +64,7 @@ or
 python3 setup.py install
 ```
 
+pip does run `python setup.py install` when installing your package - it does not change the way your setup.py feel is executed.
+
 # Ref
 https://blog.zengrong.net/post/2169.html
