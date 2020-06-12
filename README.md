@@ -30,10 +30,16 @@ Use `-r` option to copy the folder
 scp -i ~/.ssh/xxx.pem ~/Desktop/util.js username@xx.xxx.xxx.xxx:/home/foldername
 ```
 
-## ls (makes it human readable (e.g., GB, MB, ...))
+## ls 
 
+### makes it human readable (e.g., GB, MB, ...)
 ```
 ls -lh
+```
+
+### order by time
+```
+ls -lt
 ```
 
 ## tmux
