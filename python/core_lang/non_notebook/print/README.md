@@ -10,3 +10,6 @@ it will print `.`, one by one
 it will print on the console on time if we have flush argument in print
 it will print on the console in the end of program if we dont have flush argument in print
 
+# color
+change the color on printed text on console
+
