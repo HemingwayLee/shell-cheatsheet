@@ -14,3 +14,16 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
+## source
+After changing the settings in `.bashrc` or `.bash_profile`, we need to logout/login in order to make it work, we can also run the following command
+
+```
+source ~/.bashrc
+```
+
+to make it work without logout/login
+
+
+
+
+
