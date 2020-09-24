@@ -56,7 +56,10 @@ It is a python file, it allows you to install Python packages
 
 ```
 pip3 install . 
+pip3 install -e /path/to/package
 ```
+
+Running `-e` options installs the package in a way, that you can edit the package, and when a new import call looks for it, it will import the edited package code. This can be very useful for package development.
 
 or 
 
@@ -64,7 +67,7 @@ or
 python3 setup.py install
 ```
 
-pip does run `python setup.py install` when installing your package - it does not change the way your setup.py feel is executed.
+pip does run `python setup.py install` when installing your package - it does not change the way your setup.py is executed.
 
 # Ref
 https://blog.zengrong.net/post/2169.html
