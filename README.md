@@ -236,49 +236,6 @@ gshuf addresses.csv > addresses2.csv
 ## Run process in the background  
 https://unix.stackexchange.com/questions/74520/can-i-redirect-output-to-a-log-file-and-background-a-process-at-the-same-time  
 
-## AWS RDS
-By default, we need to configure the firewall (In Bound Rules in security group) to accept connections from other instances
-
-## vim
-
-* Modify the read-only file by vim
-```
-sudo vim readonly.txt
-```
-
-```
-:w !sudo tee %
-O
-:q!
-```
-
-* set number by default
-
-```
-vi ~/.vimrc
-```
-
-then add the following line to the file:
-
-```
-set number
-```
-
-* Delete one line
-```
-dd
-```
-
-* Delete all
-```
-d
-G
-```
-
-* Search
-```
-/word
-```
 
 # colon operator in variable
 ```
