@@ -4,6 +4,11 @@
 * `bash` is an implementation of `sh` (other implementations: ksh, zsh, dash, ...)
 * `/bin/sh` used to point to `/bin/bash` on most GNU/Linux systems
 
+# The first line of the file
+* we need `#!/bin/bash` at the first line of the `.sh` file if we want to run `.sh` file in     some docker environment
+   * When we use `#!/bin/bash` then we tell the environment os to use bash as a command interpreter.
+   * If we install many versions of Python, then `#!/usr/bin/env` ensures that the interpreter will use the first installed version on your environment's `$PATH`
+
 # Cheatsheet
 
 ## ssh (`<user>` is `your_user_name` in GoogleCloud and it is `ubuntu` in AWS)
