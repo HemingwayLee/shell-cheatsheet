@@ -181,7 +181,8 @@ ${parameter:-word}
 
 If `parameter` is unset or null, the expansion of `word` is substituted. Otherwise, the value of `parameter` is substituted.
 
+# Note
+[service account and user account](https://unix.stackexchange.com/questions/314725/what-is-the-difference-between-user-and-service-account)
 
 # Reference
-
 https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash
