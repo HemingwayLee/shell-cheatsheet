@@ -69,5 +69,13 @@ python3 setup.py install
 
 pip does run `python setup.py install` when installing your package - it does not change the way your setup.py is executed.
 
+# `-m option`
+* The argument is a module name, we should provide module name, not file name. For example:
+```
+python -m pip install <package>
+python3 -m http.server 8888
+python3 -m virtualenv venv
+```
+
 # Ref
 https://blog.zengrong.net/post/2169.html
