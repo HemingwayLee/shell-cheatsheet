@@ -1,5 +1,23 @@
 # git
 
+## `git tag`
+* Show all tags
+```
+git tag
+```
+
+* Add a new tag
+```
+git tag -a v1.0 -m "my first version"
+```
+
+* Push the tag to remote
+```
+git push origin v1.0
+```
+
+* After that, we can create a release based on tag
+
 ## `git log`
 ```
 commit 0f65e348261b93126748c4fc51ac6247a1b87770 (HEAD -> master, origin/master)
