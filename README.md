@@ -47,6 +47,11 @@ ls -lh
 ls -lt
 ```
 
+### Count how many files in folder
+```
+ls | wc -l
+```
+
 ## tmux
 ```
 tmux ls
@@ -71,6 +76,12 @@ find . -type d -name 'foldername'
 ```
 
 `.` means current directory
+
+### find and delete with `wildcard`
+* delete files in current folder which contain `aaa` in filename
+```
+find . -type f -name '*aaa*' -delete
+```
 
 ## check file information
 
