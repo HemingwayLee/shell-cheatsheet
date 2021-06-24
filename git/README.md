@@ -117,3 +117,10 @@ git clone --depth 20 https://github.com/tesseract-ocr/tesseract.git
 
 https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore
 
+
+## go to specific commit and push
+```
+git reset --hard <commidId> && git push --force
+```
+
+
