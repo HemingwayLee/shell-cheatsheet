@@ -4,6 +4,23 @@
 * `bash` is an implementation of `sh` (other implementations: ksh, zsh, dash, ...)
 * `/bin/sh` used to point to `/bin/bash` on most GNU/Linux systems
 
+## Which shell I am using
+```
+echo $SHELL
+echo $0
+```
+
+## zsh vs bash
+* Mac Catalina will default to `zsh` instead of `bash`
+  * The version of bash shipped with macOS is VERY OLD, because it is GPLv2 license and Apple is allowed to distribute it  
+  * The current v5 bash is under the GPLv3 license that is poison to Apple, so they cannot give you an up-to-date bash with bug fixes
+  * zsh has a better community supports
+  * bash is still there, nothing will change for you. All that changes is that zsh will be the default login shell for new accounts, and we can select bash instead
+  * Scripts are not affected. What changes is the shell for interactive use, i.e. the shell in terminals. If you have a script in a file starting with `#!/bin/bash` or `#!/bin/sh` or `#!/usr/bin/env bash`, it'll keep working exactly as before.
+
+### Reference
+https://apple.stackexchange.com/questions/361870/what-are-the-practical-differences-between-bash-and-zsh
+
 # The first line of the file
 * we need `#!/bin/bash` at the first line of the `.sh` file if we want to run `.sh` file in     some docker environment
    * When we use `#!/bin/bash` then we tell the environment os to use bash as a command interpreter.
