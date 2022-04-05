@@ -26,6 +26,11 @@ https://apple.stackexchange.com/questions/361870/what-are-the-practical-differen
    * When we use `#!/bin/bash` then we tell the environment os to use bash as a command interpreter.
    * If we install many versions of Python, then `#!/usr/bin/env` ensures that the interpreter will use the first installed version on your environment's `$PATH`
 
+## [direnv](https://github.com/HemingwayLee/docker-cheatsheet/tree/master/docker/proj/direnv)
+* It is an extension for your shell
+* It augments existing shells with a new feature that can `load and unload environment variables` depending on the current directory
+  * when we get into the folder, the `.envrc` will be loaded
+
 # Cheatsheet
 
 ## ssh (`<user>` is `your_user_name` in GoogleCloud and it is `ubuntu` in AWS)
