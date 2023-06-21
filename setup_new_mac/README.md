@@ -16,5 +16,5 @@ cdls() {
 alias cd='cdls'
 ```
 
-* source ~/.zshrc
+* Run `source ~/.zshrc`
 
