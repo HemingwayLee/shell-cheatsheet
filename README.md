@@ -21,6 +21,13 @@ echo $0
 ### Reference
 https://apple.stackexchange.com/questions/361870/what-are-the-practical-differences-between-bash-and-zsh
 
+# `source` command not found in sh shell
+* `/bin/sh` is usually some other shell trying to mimic The Shell. Many distributions use `/bin/bash` for sh, it supports `source`. On Ubuntu, `/bin/dash` is used which does not support `source`. Most shells use `.` instead of `source`.
+```
+. filename
+```
+
+
 # The first line of the file
 * we need `#!/bin/bash` at the first line of the `.sh` file if we want to run `.sh` file in     some docker environment
    * When we use `#!/bin/bash` then we tell the environment os to use bash as a command interpreter.
