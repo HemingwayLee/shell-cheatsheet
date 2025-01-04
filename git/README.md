@@ -123,4 +123,8 @@ https://stackoverflow.com/questions/7927230/remove-directory-from-remote-reposit
 git reset --hard <commidId> && git push --force
 ```
 
+## increase buffer to deal with 400 error while `git push`
+```
+git config http.postBuffer 524288000
+```
 
